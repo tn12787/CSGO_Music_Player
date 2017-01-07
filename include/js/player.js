@@ -256,8 +256,8 @@ function pullUpdate () {
     }
   } else {
     player.setTimeOut(function (){
-    player.play();
-    player.volume = settings.master_volume;
+      player.play();
+      player.volume = settings.master_volume;
     }, settings.delay_amount*1000);
   }
 }
